@@ -1,0 +1,4 @@
+Pillow==9.2.0
+imageio==2.21.0
+fire==0.4.0
+PyYAML==6.0
