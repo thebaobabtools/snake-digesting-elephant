@@ -1,0 +1,32 @@
+thumbnail:
+  size:
+    x: 256
+    y: 256
+crop_images:
+  - path: resources/original/bicycle.jpeg
+    x0: 100
+    y0: 600
+    x1: 2800
+    y1: 2500
+    out_path: resources/cropped/bicycle_0.jpg
+bicycle_gif:
+  bicycle_image_path: resources/cropped/bicycle_0.jpg
+  wheels:
+    - name: back wheel
+      x0: 0
+      y0: 100
+      x1: 80
+      y1: 180
+    - name: front wheel
+      x0: 170
+      y0: 100
+      x1: 250
+      y1: 180
+  rotations:
+    - 0
+    - 270
+    - 180
+    - 90
+  duration: 0.5
+  gif_out_path: resources/output/bicycle.gif
+
